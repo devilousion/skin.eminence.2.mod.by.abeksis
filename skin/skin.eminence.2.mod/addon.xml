@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.eminence.2.mod" version="1.4.3" name="Eminence 2.0 He By (Abeksis)" provider-name="jurialmunkey - Mod by Abeksis">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.skinshortcuts" version="0.6.0"/>
+        <import addon="script.skin.helper.service" version="0.0.1"/>
+        <import addon="script.extendedinfo" version="3.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+        <import addon="resource.images.weathericons.white" version="0.0.6"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <summary lang="fr">Clair, simple et moderne.</summary>
+        <disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
+        <disclaimer lang="fr">La souris et les périphériques tactiles ne sont pas supportés</disclaimer>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+    </extension>
+ 		<assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+ 			<screenshot>resources/screenshot-01.jpg</screenshot>
+ 			<screenshot>resources/screenshot-02.jpg</screenshot>
+ 			<screenshot>resources/screenshot-03.jpg</screenshot>
+ 			<screenshot>resources/screenshot-04.jpg</screenshot>
+ 			<screenshot>resources/screenshot-05.jpg</screenshot>
+ 			<screenshot>resources/screenshot-06.jpg</screenshot>
+ 			<screenshot>resources/screenshot-07.jpg</screenshot>
+ 			<screenshot>resources/screenshot-08.jpg</screenshot>
+ 			<screenshot>resources/screenshot-09.jpg</screenshot>
+ 			<screenshot>resources/screenshot-10.jpg</screenshot>
+ 		</assets>   
+</addon>

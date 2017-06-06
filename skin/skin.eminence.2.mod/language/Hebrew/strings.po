@@ -1,0 +1,1783 @@
+# XBMC Media Center language file
+# Addon Name: Eminence 2
+# Addon id: skin.eminence.2
+# Addon Provider: jurialmunkey
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-07-16 21:56+0300\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-main/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+# Misc labels
+msgctxt "#31000"
+msgid "Item"
+msgstr "פריט"
+
+msgctxt "#31001"
+msgid "Items"
+msgstr "פריטים"
+
+msgctxt "#31002"
+msgid "Tag"
+msgstr "תגית"
+
+msgctxt "#31003"
+msgid "Next"
+msgstr "הבא"
+
+msgctxt "#31004"
+msgid "Opaque panels"
+msgstr "תצוגה אטומה של התפריט"
+
+msgctxt "#31005"
+msgid "Video OSD"
+msgstr "תצוגת מסך וידאו"
+
+msgctxt "#31006"
+msgid "Show infos when pressing info"
+msgstr "הצג אינפורמציה בעת לחיצה על המידע"
+
+msgctxt "#31007"
+msgid "Show media flags"
+msgstr "‎הצג אייקוני מידע סרט"
+
+msgctxt "#31008"
+msgid "Show plot overlay in video library after delay"
+msgstr "‎הצג עלילה לאחר השהייה של מספר שניות"
+
+msgctxt "#31009"
+msgid "Open playlist"
+msgstr "‎פתח רשימת השמעה"
+
+msgctxt "#31010"
+msgid "Save playlist"
+msgstr "‎שמור רשימת השמעה"
+
+msgctxt "#31011"
+msgid "Close playlist"
+msgstr "‎סגור רשימת השמעה"
+
+msgctxt "#31012"
+msgid "Current playlist"
+msgstr "‎רשימת השמעה נוכחית"
+
+msgctxt "#31013"
+msgid "Muted"
+msgstr "‎מושתק"
+
+msgctxt "#31014"
+msgid "Show header"
+msgstr "‎הצג מידע בשורת הבר"
+
+msgctxt "#31015"
+msgid "Live TV"
+msgstr "‎טלוויזיה חיה"
+
+msgctxt "#31016"
+msgid "Show widget infos"
+msgstr "‎הצג מידע ווידג'ט"
+
+msgctxt "#31017"
+msgid "Votes"
+msgstr "‎הצבעות"
+
+msgctxt "#31018"
+msgid "Increase"
+msgstr "להגביר"
+
+msgctxt "#31019"
+msgid "Decrease"
+msgstr "‎להפחית"
+
+msgctxt "#31020"
+msgid "Background"
+msgstr "‎תמונת רקע"
+
+msgctxt "#31021"
+msgid "Show fanarts"
+msgstr "‎תצוגת פאנארט"
+
+msgctxt "#31027"
+msgid "Show background video"
+msgstr "‎הצג רקע מונפש"
+
+msgctxt "#31028"
+msgid "Show background visualisation"
+msgstr "הדמית רקע מונפש"
+
+msgctxt "#31031"
+msgid "Recent movies"
+msgstr "סרטים אחרונים"
+
+msgctxt "#31032"
+msgid "Recommended movies"
+msgstr "סרטים מומלצים"
+
+msgctxt "#31034"
+msgid "Enable Artist Slideshow"
+msgstr "אפשר מצגת אמן"
+
+msgctxt "#31035"
+msgid "Recent episodes"
+msgstr "‎פרקים אחרונים"
+
+msgctxt "#31036"
+msgid "Recommended episodes"
+msgstr "‎פרקים מומלצים"
+
+msgctxt "#31038"
+msgid "Recent albums"
+msgstr "‎אלבומים אחרונים"
+
+msgctxt "#31039"
+msgid "Recommended albums"
+msgstr "‎אלבומים מומלצים"
+
+msgctxt "#31043"
+msgid "Extra art"
+msgstr "אפשרויות נוספות"
+
+msgctxt "#31044"
+msgid "Local subtitle found!"
+msgstr "‎כתובית מקומית נמצאה!"
+
+msgctxt "#31045"
+msgid "Supplied by"
+msgstr "‎סופק על ידי"
+
+msgctxt "#31046"
+msgid "Currently"
+msgstr "‎נכון לעכשיו"
+
+msgctxt "#31047"
+msgid "Visualisation Presets"
+msgstr "‎הגדרות מראה קבועות מראש"
+
+msgctxt "#31048"
+msgid "Playlist Options"
+msgstr "‎אפשרויות רשימת השמעה"
+
+msgctxt "#31049"
+msgid "Customise home menu"
+msgstr "‎התאמה אישית של תפריט הבית"
+
+msgctxt "#31052"
+msgid "Rated"
+msgstr "‎דירוג"
+
+msgctxt "#31054"
+msgid "Random movies"
+msgstr "‎סרטים אקראיים"
+
+msgctxt "#31055"
+msgid "Random episodes"
+msgstr "‎פרקים אקראיים"
+
+msgctxt "#31056"
+msgid "Random albums"
+msgstr "‎אלבומים אקראיים"
+
+msgctxt "#31057"
+msgid "Kiosk mode"
+msgstr "‎מצב קיוסק"
+
+msgctxt "#31059"
+msgid "Memory Used:"
+msgstr "‎זיכרון בשימוש:"
+
+msgctxt "#31063"
+msgid "Addons"
+msgstr "‎הרחבות"
+
+msgctxt "#31064"
+msgid "Custom background image"
+msgstr "‎תמונת רקע מותאמת אישית"
+
+msgctxt "#31065"
+msgid "Hide 'Mouse' warning"
+msgstr "‎הסתר אזהרת 'עכבר'"
+
+msgctxt "#31066"
+msgid "Cinema Exp."
+msgstr ""
+
+msgctxt "#31067"
+msgid "Page"
+msgstr "‎עמוד"
+
+msgctxt "#31068"
+msgid "View Options"
+msgstr "‎אפשרויות תצוגה"
+
+msgctxt "#31069"
+msgid "Context Menu"
+msgstr "‎תפריט עזר"
+
+msgctxt "#31070"
+msgid "Infos"
+msgstr "‎מידע"
+
+msgctxt "#31071"
+msgid "Finishes at"
+msgstr "מסתיים ב-"
+
+msgctxt "#31072"
+msgid "Playing"
+msgstr "מנגן"
+
+msgctxt "#31073"
+msgid "Categories"
+msgstr "‎קטגוריות"
+
+msgctxt "#31074"
+msgid "Submenu"
+msgstr "תפריט משנה"
+
+msgctxt "#31075"
+msgid "Icon"
+msgstr "‎הגדר אייקון"
+
+msgctxt "#31076"
+msgid "Weather Fanart"
+msgstr "‎פארנט מזג האוויר"
+
+msgctxt "#31077"
+msgid "Trending Movies"
+msgstr "‎סרטים טרנדיים"
+
+msgctxt "#31078"
+msgid "In Cinemas"
+msgstr "כעת בקולנוע"
+
+msgctxt "#31079"
+msgid "Upcoming Films"
+msgstr "‎בקרוב בקולנוע"
+
+msgctxt "#31080"
+msgid "Popular Movies"
+msgstr "‎סרטים פופולריים"
+
+msgctxt "#31081"
+msgid "Top Rated Movies"
+msgstr "‎סרטים בדירוג גבוה"
+
+msgctxt "#31082"
+msgid "Popular Shows"
+msgstr "הופעות פופולריות"
+
+msgctxt "#31083"
+msgid "Top Rated Shows"
+msgstr "הופעות בדירוג גבוה"
+
+msgctxt "#31084"
+msgid "On Air Shows"
+msgstr "הופעות משודרות כעת"
+
+msgctxt "#31085"
+msgid "Airing Today"
+msgstr "משודר היום"
+
+msgctxt "#31086"
+msgid "Custom 1"
+msgstr "‎מותאם אישית 1"
+
+msgctxt "#31087"
+msgid "Custom 2"
+msgstr "‎מותאם אישית 2"
+
+msgctxt "#31088"
+msgid "Custom 3"
+msgstr "‎מותאם אישית 3"
+
+msgctxt "#31089"
+msgid "Custom 4"
+msgstr "‎מותאם אישית 4"
+
+msgctxt "#31090"
+msgid "Content Loading"
+msgstr "‎טעינת תוכן"
+
+msgctxt "#31091"
+msgid "Trending Shows"
+msgstr "‎הופעות טרנדיות"
+
+msgctxt "#31092"
+msgid "No info available"
+msgstr "‎אין מידע זמין"
+
+msgctxt "#31093"
+msgid "Movie Hub"
+msgstr "האב סרטים"
+
+msgctxt "#31094"
+msgid "TV Hub"
+msgstr "האב סדרות "
+
+msgctxt "#31095"
+msgid "Spotlight"
+msgstr "תצוגה מקדימה"
+
+msgctxt "#31096"
+msgid "Hub items"
+msgstr "תפריט האב"
+
+msgctxt "#31097"
+msgid "Hub widget"
+msgstr "‎ווידג'ט האב"
+
+msgctxt "#31098"
+msgid "Artwork"
+msgstr "תצוגה מקדימה"
+
+msgctxt "#31099"
+msgid "Codec"
+msgstr "מפענח"
+
+msgctxt "#31100"
+msgid "Recently Added"
+msgstr "נוספו לאחרונה"
+
+msgctxt "#31101"
+msgid "Recently Played"
+msgstr "נוגן לאחרונה"
+
+msgctxt "#31102"
+msgid "Watch Random"
+msgstr "הנפשת פאנארט - אומן"
+
+msgctxt "#31103"
+msgid "Delete Settings Shortcut"
+msgstr "מחיקת הגדרות קיצורים"
+
+msgctxt "#31104"
+msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
+msgstr "האם אתה בטוח שברצונך להסיר את הגדרות קיצורי הדרך? [CR] אנא ודא שיש לך שיטה חלופית לגישה להגדרות לפני שאתה מסיר את קיצור הדרך זה."
+
+msgctxt "#31105"
+msgid "Extra Infos"
+msgstr "‎מידע נוסף"
+
+msgctxt "#31106"
+msgid "3D Mode"
+msgstr "מצב 3D"
+
+msgctxt "#31107"
+msgid "Similar"
+msgstr "‎דומה"
+
+msgctxt "#31108"
+msgid "Youtube"
+msgstr "‎יוטיוב"
+
+msgctxt "#31109"
+msgid "provided by themoviedb.org"
+msgstr "‎מסופק על ידי themoviedb.org"
+
+msgctxt "#31110"
+msgid "Extras"
+msgstr "‎תוספות"
+
+msgctxt "#31111"
+msgid "Primary highlight color"
+msgstr "‎בחר צבע לכותרת הראשית"
+
+msgctxt "#31112"
+msgid "Secondary highlight color"
+msgstr "‎בחר צבע לכותרת המשנית"
+
+msgctxt "#31113"
+msgid "Reset main color to default"
+msgstr "‎אפס צבעים לברירת מחדל"
+
+msgctxt "#31114"
+msgid "Weather fanart"
+msgstr "‎הגדר פאנארט מזג אוויר"
+
+msgctxt "#31115"
+msgid "Show weather with clock"
+msgstr "‎הצג מזג אוויר עם שעון"
+
+msgctxt "#31116"
+msgid "Animate fanarts"
+msgstr "‎הנפשת פאנארט"
+
+msgctxt "#31117"
+msgid "mins"
+msgstr "דקות"
+
+msgctxt "#31118"
+msgid "Animate artist fanarts"
+msgstr "‎הנפש מצגת אומן"
+
+msgctxt "#31119"
+msgid "Show visualisation effects"
+msgstr "‎הצג אפקטים ויזואליים"
+
+msgctxt "#31120"
+msgid "Hide playback infos"
+msgstr "הסתר מידע של פריט מנוגן"
+
+msgctxt "#31121"
+msgid "Music OSD"
+msgstr "‎מוזיקה OSD"
+
+msgctxt "#31122"
+msgid "Match header tile with highlight color"
+msgstr "‎התאם את צבע האריח בתפריט לצבע הנבחר"
+
+msgctxt "#31123"
+msgid "Hub"
+msgstr "האב מותאם אישית"
+
+msgctxt "#31124"
+msgid "Similar movies"
+msgstr "‎סרטים דומים"
+
+msgctxt "#31125"
+msgid "Similar to"
+msgstr "‏‎דומה ל -"
+
+msgctxt "#31126"
+msgid "Colors"
+msgstr "‎צבעים"
+
+msgctxt "#31127"
+msgid "Header"
+msgstr "‎כותרת"
+
+msgctxt "#31128"
+msgid "Color"
+msgstr "‎הגדר צבע"
+
+msgctxt "#31129"
+msgid "Enable individual color for each tile in home customisation"
+msgstr "‎אפשר צבעים לאריחים בודדים תחת התאמה אישית"
+
+msgctxt "#31130"
+msgid "items found"
+msgstr "‎פריטים שנמצאו"
+
+msgctxt "#31131"
+msgid "Search Options"
+msgstr "‎אפשרויות חיפוש"
+
+msgctxt "#31132"
+msgid "by Title"
+msgstr "‎לפי כותרת"
+
+msgctxt "#31133"
+msgid "by Genre"
+msgstr "‎לפי סגנון"
+
+msgctxt "#31134"
+msgid "by Actor"
+msgstr "‎לפי שחקן"
+
+msgctxt "#31135"
+msgid "by Director"
+msgstr "‎לפי במאי"
+
+msgctxt "#31136"
+msgid "by Studio"
+msgstr "‎לפי סטודיו"
+
+msgctxt "#31137"
+msgid "Panel list"
+msgstr "תצוגת פאנל"
+
+msgctxt "#31138"
+msgid "Show clock"
+msgstr "‎הצג שעון"
+
+msgctxt "#31139"
+msgid "Hubs"
+msgstr "מרכז התוכן"
+
+msgctxt "#31140"
+msgid "Show tile colour on unfocused tiles"
+msgstr "הצג צבע אריחים על אריחים לא מותאמים"
+
+msgctxt "#31141"
+msgid "Posters with infos"
+msgstr "פוסטרים עם מידע"
+
+msgctxt "#31142"
+msgid "Big list infos"
+msgstr "‎רשימת מידע גדולה"
+
+msgctxt "#31143"
+msgid "Media Infos 2"
+msgstr "‎פרטי מדיה 2"
+
+msgctxt "#31144"
+msgid "Player Controls"
+msgstr "פקדי נגינה"
+
+msgctxt "#31145"
+msgid "Extended Infos"
+msgstr "‎מידע מורחב"
+
+msgctxt "#31146"
+msgid "Fanart fallback image"
+msgstr "תמונת ווידג'ט חלופית"
+
+msgctxt "#31147"
+msgid "Fallback widget"
+msgstr "‎ווידג'ט ברירת מחדל"
+
+msgctxt "#31148"
+msgid "Media Infos 3"
+msgstr "‎פרטי מדיה 3"
+
+msgctxt "#31149"
+msgid "Next Aired"
+msgstr "אפשר הרחבה NextAried"
+
+msgctxt "#31150"
+msgid "Show widget posters"
+msgstr "‎הצג ווידג'ט פוסטרים"
+
+msgctxt "#31151"
+msgid "Home tile icon"
+msgstr "הגדר אייקון בית"
+
+msgctxt "#31152"
+msgid "Home tile text"
+msgstr "הגדר כותרת בית"
+
+msgctxt "#31153"
+msgid "Always"
+msgstr "תמיד"
+
+msgctxt "#31154"
+msgid "On Up"
+msgstr "אחד למעלה - לחצן מקלדת למעלה"
+
+msgctxt "#31155"
+msgid "Never"
+msgstr "לעולם לא"
+
+msgctxt "#31156"
+msgid "Show widget discart"
+msgstr "הצג יישומון Discart"
+
+msgctxt "#31157"
+msgid "Home header text"
+msgstr "הגדר טקסט כותרת"
+
+msgctxt "#31158"
+msgid "Media Center"
+msgstr "מדיה סנטר"
+
+msgctxt "#31159"
+msgid "Background overlay image"
+msgstr "תמונת רקע כללית למעטפת"
+
+msgctxt "#31160"
+msgid "Busy spinner"
+msgstr "שינוי אייקון עסוק"
+
+msgctxt "#31161"
+msgid "Backup skin settings"
+msgstr "גיבוי הגדרות מעטפת"
+
+msgctxt "#31162"
+msgid "Restore skin settings from file"
+msgstr "שחזר הגדרות מעטפת מקובץ"
+
+msgctxt "#31163"
+msgid "Gallery"
+msgstr "גלריה"
+
+msgctxt "#31164"
+msgid "Fanarts/Thumbs list"
+msgstr "רשימת פאנארט/תמונות ממוזערות"
+
+msgctxt "#31165"
+msgid "Show sorting and infos lines headers"
+msgstr "הצג כותרת ומידע במסך ההגדרות"
+
+msgctxt "#31166"
+msgid "Individually set in customisation dialog"
+msgstr "מוגדר ידנית בחלון התאמה אישית"
+
+msgctxt "#31167"
+msgid "Show unwatched count in header"
+msgstr "הצג כמות תוכן שלא נצפה"
+
+msgctxt "#31168"
+msgid "Now / Next"
+msgstr "עכשיו / הבא"
+
+msgctxt "#31169"
+msgid "Reset skin settings to defaults"
+msgstr "איפוס הגדרות לברירת מחדל - ( אזהרה - אפשרות זו תבטל את כל השינויים שנעשו ע״י המשתמש)"
+
+msgctxt "#31170"
+msgid "Backup / Restore"
+msgstr "גיבוי / שחזור"
+
+msgctxt "#31171"
+msgid "Reload skin"
+msgstr "רענן מעטפת"
+
+msgctxt "#31172"
+msgid "Transparent home bar"
+msgstr "אפשר שקיפות אריחים"
+
+msgctxt "#31173"
+msgid "Home bar style"
+msgstr "עצב את שורת הבר"
+
+msgctxt "#31174"
+msgid "Weather icons"
+msgstr "שנה אייקוני מזג אוויר"
+
+msgctxt "#31175"
+msgid "Customise shutdown menu"
+msgstr "התאמה אישית של תפריט כיבוי"
+
+msgctxt "#31176"
+msgid "Genre icons"
+msgstr "הגדרת אייקון סגנון"
+
+msgctxt "#31180"
+msgid "Default"
+msgstr "ברירת מחדל"
+
+msgctxt "#31181"
+msgid "Text in tiles"
+msgstr "טקסט באריחים"
+
+msgctxt "#31182"
+msgid "Text only"
+msgstr "טקסט בלבד"
+
+msgctxt "#31183"
+msgid "Customise shutdown menu"
+msgstr "התאמה אישית של תפריט כיבוי"
+
+msgctxt "#31184"
+msgid "Splash screen (photo, video or music)"
+msgstr "סרטון פתיח או רשימת הפעלה"
+
+msgctxt "#31185"
+msgid "Label"
+msgstr "הגדר כותרת"
+
+msgctxt "#31186"
+msgid "Action"
+msgstr "פעולה"
+
+msgctxt "#31187"
+msgid "Background"
+msgstr "תמונת רקע"
+
+msgctxt "#31188"
+msgid "None (show user background)"
+msgstr "ללא (הצגת תמונת רקע משתמש)"
+
+msgctxt "#31189"
+msgid "None"
+msgstr "ללא"
+
+msgctxt "#31190"
+msgid "Next Episode"
+msgstr "הפרק הבא"
+
+msgctxt "#31191"
+msgid "Last Episode"
+msgstr "פרק אחרון ששודר"
+
+msgctxt "#31192"
+msgid "Infos List"
+msgstr "רשימת מידע"
+
+msgctxt "#31193"
+msgid "Box Office"
+msgstr "קוּפָּה"
+
+msgctxt "#31194"
+msgid "Show plot for Hub widget"
+msgstr "הראה עלילה בעת לחיצה על כפתור 'המידע'"
+
+msgctxt "#31195"
+msgid "Allow widget reloading"
+msgstr "אפשר טעינת ווידגט מחדש"
+
+msgctxt "#31500"
+msgid "None"
+msgstr "ללא"
+
+msgctxt "#31501"
+msgid "Rounded tiles"
+msgstr "אריחים מעוגלים"
+
+msgctxt "#31502"
+msgid "Squared tiles"
+msgstr "אריחים מרובעים"
+
+msgctxt "#31503"
+msgid "Rounded Tile"
+msgstr "אריח מעוגל"
+
+msgctxt "#31504"
+msgid "Squared Tile"
+msgstr "אריח מרובע"
+
+msgctxt "#31505"
+msgid "Beveled Tile"
+msgstr "אריח משופע"
+
+msgctxt "#31506"
+msgid "Header tile style"
+msgstr "עיצוב כותרת רקע אחורי - חלון הבית"
+
+msgctxt "#31507"
+msgid "Widgets tile style"
+msgstr "סגנון רקע ווידג’ט"
+
+msgctxt "#31508"
+msgid "Power Menu Shortcut"
+msgstr "קיצורי דרך של תפריט כיבוי"
+
+msgctxt "#31509"
+msgid "Display settings items"
+msgstr "פריטי הגדרות תצוגה"
+
+msgctxt "#31510"
+msgid "Disable rating and votes display"
+msgstr "בטל תצוגת דירוג וצבעות"
+
+msgctxt "#31511"
+msgid "Disable classification infos (MPAA) display"
+msgstr "בטל מיון מידע של MPAA"
+
+msgctxt "#31512"
+msgid "Show ClearArts on videos infos"
+msgstr "הצג פריטים שקופים במידע וידאו"
+
+msgctxt "#31513"
+msgid "Show movies/tv shows clearlogos"
+msgstr "הצג לוגו סרטים/סדרות"
+
+msgctxt "#31514"
+msgid "active"
+msgstr "פעיל"
+
+msgctxt "#31515"
+msgid "inactive"
+msgstr "לא פעיל"
+
+msgctxt "#31516"
+msgid "Download subtitles"
+msgstr "הורדת כתוביות"
+
+msgctxt "#31517"
+msgid "Next subtitles"
+msgstr "כתובית הבאה"
+
+msgctxt "#31518"
+msgid "Subtitles"
+msgstr "כתוביות"
+
+msgctxt "#31519"
+msgid "Show artists clearlogos"
+msgstr "הצג לוגו אומן"
+
+msgctxt "#31520"
+msgid "Path to musics directory"
+msgstr "נתיב אל ספריית המוסיקה"
+
+msgctxt "#31521"
+msgid "Show albums CDArt on albums infos"
+msgstr "הצג CDart אלבומי מוזיקה"
+
+msgctxt "#31522"
+msgid "Path to musics directory"
+msgstr "נתיב אל ספריית המוסיקה"
+
+msgctxt "#31523"
+msgid "Last Updated :"
+msgstr "עדכון אחרון:"
+
+msgctxt "#31524"
+msgid "Rollback"
+msgstr "החזר להתחלה"
+
+msgctxt "#31525"
+msgid "Show ClearArt on video infos"
+msgstr "הצג לוגו סרט במסך ה-OSD"
+
+msgctxt "#31526"
+msgid "Back to Fullscreen"
+msgstr "בחזרה למסך מלא"
+
+msgctxt "#31527"
+msgid "Show ClearArt with NextUp Notification addon"
+msgstr "הצג אפקטים שקופים יחד עם החרבת התראה ל\"הבא בתור\""
+
+msgctxt "#31528"
+msgid "Channels"
+msgstr "ערוצים"
+
+msgctxt "#31529"
+msgid "Disable Box Office display on video infos"
+msgstr "בטל הצגת קופה במידע וידאו"
+
+msgctxt "#31530"
+msgid "Disable Box Office display on video infos"
+msgstr "בטל הצגת קופה במידע וידאו"
+
+msgctxt "#31531"
+msgid "Hide header tile"
+msgstr "ביטול כותרת"
+
+msgctxt "#31532"
+msgid "Big wide with logos"
+msgstr "גודל רחב עם לוגו"
+
+msgctxt "#31533"
+msgid "Fast Forward"
+msgstr "העברה מהירה קדימה"
+
+msgctxt "#31534"
+msgid "Fast Rewind"
+msgstr "הרצה אחורה"
+
+msgctxt "#31535"
+msgid "Show ClearLogo on widgets tile"
+msgstr "הצג לוגו סרט בחלון הווידג'ט (מסך הבית)"
+
+msgctxt "#31536"
+msgid "This category contains the settings for home menu."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור תפריט הבית"
+
+msgctxt "#31537"
+msgid "This category contains the settings for background."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור רקע"
+
+msgctxt "#31538"
+msgid "This category contains the settings for music OSD."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור תפריט מסך המוסיקה"
+
+msgctxt "#31539"
+msgid "This category contains the settings for video OSD."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור תצוגה של מסך הוידאו"
+
+msgctxt "#31540"
+msgid "This category contains the settings for header."
+msgstr "קטגוריה זו כוללת את ההגדרות לכותרת"
+
+msgctxt "#31541"
+msgid "This category contains the settings for display items."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור פריטי תצוגה"
+
+msgctxt "#31542"
+msgid "This category contains the settings for highlight colors."
+msgstr "קטגוריה זו כוללת את ההגדרות לצבעי גולת הכותרת"
+
+msgctxt "#31543"
+msgid "This category contains the skin extras settings."
+msgstr "קטגוריה זו כוללת את ההגדרות עבור תוספות"
+
+msgctxt "#31544"
+msgid "This category contains the settings for backup and restore skin settings."
+msgstr "קטגוריה זו כוללת את ההגדרות לגיבוי ושחזור"
+
+msgctxt "#31545"
+msgid "Configure home menu and widgets."
+msgstr "קביעת תצורה של תפריט הבית והווידג'טים"
+
+msgctxt "#31546"
+msgid "Select the widget to display when no widget is selected in the configuration of the home menu."
+msgstr "בחר ווידג'ט להצגה כאשר אין ווידג'ט נבחר, באזור תפריט הבית"
+
+msgctxt "#31547"
+msgid "Show widget tile and infos on home menu."
+msgstr "הצג מידע ווידג'ט ואינפורמציה בתפריט הבית"
+
+msgctxt "#31548"
+msgid "Choose how posters are displayed with widgets. [[B]Never[/B]]\" No poster is displayed with widgets. [[B]Always[/B]] Posters are always displayed with widgets. [[B]On Up[/B]] Posters are displayed only when pressing the Up button. [B]Individually set in customisation dialog[/B]] Choose to display or not posters individually for each widget via customise home menu."
+msgstr "בחר איך פוסטרים מוצגים בווידג'ט"
+
+msgctxt "#31549"
+msgid "Show discs with widgets."
+msgstr "הצג דיסק עם ווידג’ט"
+
+msgctxt "#31550"
+msgid "Show clearlogos with widgets."
+msgstr "הצג clearlogos עם ווידג׳ט"
+
+msgctxt "#31551"
+msgid "Choose home tile icon."
+msgstr "בחר אייקון לאריח הבית"
+
+msgctxt "#31552"
+msgid "Set home tile text."
+msgstr "הגדר טקסט"
+
+msgctxt "#31553"
+msgid "Set home header text."
+msgstr "הגדר טקסט לכותרת הסקין"
+
+msgctxt "#31554"
+msgid "Lets make transparente the home bar menu"
+msgstr "אפשר שקיפות בר אריחים וחלק עליון"
+
+msgctxt "#31555"
+msgid "Set home bar style."
+msgstr "קבע את סגנון שורת הבר"
+
+msgctxt "#31556"
+msgid "Set header tile style."
+msgstr "קבע את כותרת שורת הבר"
+
+msgctxt "#31557"
+msgid "Set widgets tile style."
+msgstr "קבע את סגנון כותרת הווידג'ט"
+
+msgctxt "#31558"
+msgid "Show fanarts in background in library."
+msgstr "הצג פאנארט ברקע בספרייה"
+
+msgctxt "#31559"
+msgid "Show vidéo in background."
+msgstr "הצג וידאו ברקע"
+
+msgctxt "#31560"
+msgid "Give a displacement effect to Fanart."
+msgstr "מיקום פאנארט לא ממורכז"
+
+msgctxt "#31561"
+msgid "Select a background to replace default."
+msgstr " החלף רקע ברירת מחדל"
+
+msgctxt "#31562"
+msgid "Select a background to display when no Fanart available."
+msgstr "בחר רקע כשפאנארט לא זמין"
+
+msgctxt "#31563"
+msgid "Select fanarts Weather addon."
+msgstr "בחר הרחבת פאנארט מזג אויר"
+
+msgctxt "#31564"
+msgid "Select background on music visualisation. [[B]None[/B]] show a black background. [[B]Fanart[/B]] show fanart set for artist. [[B]Artist Slideshow[/B]] show artist slideshow in background. [[B]Album wall[/B]] show a background with covers of all albums."
+msgstr "הראה תמונת רקע כשמוזיקה מנוגנת"
+
+msgctxt "#31565"
+msgid "Artist Slideshow"
+msgstr "‎מצגת אמן"
+
+msgctxt "#31566"
+msgid "Show visualisation effects on music visualisation."
+msgstr "הצג אפקטים חזותיים למוזיקה"
+
+msgctxt "#31567"
+msgid "Give a displacement effect to artist Fanart."
+msgstr "מיקום פאנארט לא ממורכז - אומן"
+
+msgctxt "#31568"
+msgid "Disable header tile on music visualisation."
+msgstr "בטל כותרת כשמוזיקה מנגנת"
+
+msgctxt "#31569"
+msgid "Show clock on music visualisation."
+msgstr "הראה שעון כשמוזיקה מנגנת"
+
+msgctxt "#31570"
+msgid "Show weather on music visualisation."
+msgstr "הראה מזג אויר כשמוזיקה מנגנת"
+
+msgctxt "#31571"
+msgid "Show infos panel using [B]Info[/B] button when viewing a video."
+msgstr "לחץ על כפתור מידע להקפצת מידע סרט"
+
+msgctxt "#31572"
+msgid "Show ClearArt with infos panel."
+msgstr "הראה אפקטים שקופים עם מידע"
+
+msgctxt "#31573"
+msgid "Show TV Show ClearArt with [B]NextUp Notification[/B] addon."
+msgstr "הראה אפקטים שקופים כאשר יש פרק נוסף"
+
+msgctxt "#31574"
+msgid "Show clock on header."
+msgstr "הצג שעון בכותרת"
+
+msgctxt "#31575"
+msgid "Show clock with weather on header."
+msgstr "הצג שעון וטמפרטורה בכותרת"
+
+msgctxt "#31576"
+msgid "Show text header."
+msgstr "הצג טקסט בכותרת"
+
+msgctxt "#31577"
+msgid "Show number of unwatched media rather than total number of media."
+msgstr "הצג את המספר של הסרטים שלא נצפו ולא את מספר הסרטים הכולל."
+
+msgctxt "#31578"
+msgid "Show header tile in the same color as the primary highlight color."
+msgstr "התאם צבע אריח ראשי לצבע בחירה"
+
+msgctxt "#31579"
+msgid "Show media infos icons such as ratio, resolution, video codec, audio codec,  number of channels..."
+msgstr "הצג מידע סרט (דירוג, רזולוציה, מפענח...)"
+
+msgctxt "#31580"
+msgid "Show synopsis of videos to the forefront after few seconds."
+msgstr ""
+
+msgctxt "#31581"
+msgid "Show sorting infos and headers lines."
+msgstr "הצג מידע מיון"
+
+msgctxt "#31582"
+msgid "Hide display of votes and notes on the entire skin."
+msgstr "הסתר דירוג והערות בכל המעטפת"
+
+msgctxt "#31583"
+msgid "Hide display of MPAA on the entire skin."
+msgstr "הסתר MPAA בכל המעטפת"
+
+msgctxt "#31584"
+msgid "Hide display of Box Office on video infos."
+msgstr "הסתר מידע קופות בכל המעטפת"
+
+msgctxt "#31585"
+msgid "Show ClearArts on video infos."
+msgstr "הצג אפקטים שקופים במידע וידאו"
+
+msgctxt "#31586"
+msgid "Show movies/tv shows ClearLogo on header."
+msgstr "הצג לוגו שקוף של סרטים / סדרות בכותרת"
+
+msgctxt "#31587"
+msgid "Show artists ClearLogo on header."
+msgstr "הצג לוגו שקוף של אמן בכותרת"
+
+msgctxt "#31588"
+msgid "Set folder path where music files are located."
+msgstr "הגדר מיקום תיקיה בה נמצאים קבצי המוזיקה"
+
+msgctxt "#31589"
+msgid "Show albums CDArt on albums infos."
+msgstr "הצג תוספות דיסק במידע אלבום"
+
+msgctxt "#31590"
+msgid "Set folder path where music files are located."
+msgstr "הגדר מיקום תיקיה בה נמצאים קבצי המוזיקה"
+
+msgctxt "#31591"
+msgid "Set primary color for focused items."
+msgstr "בחר צבע ראשי לפריט נבחר"
+
+msgctxt "#31592"
+msgid "Set secondary color used by some texts."
+msgstr "הצג צבע משני בשימוש חלק מהטקסט"
+
+msgctxt "#31593"
+msgid "Reset main color to default."
+msgstr "אפס צבע ראשי לברירת מחדל"
+
+msgctxt "#31594"
+msgid "Set a color for each tile of home bar menu via customisation home menu."
+msgstr "בחר צבע לכל אריח בנפרד תחת התאמת דף הבית"
+
+msgctxt "#31595"
+msgid "Show unfocused tiles in color."
+msgstr "הצג צבע על אריחים לא נבחרים"
+
+msgctxt "#31596"
+msgid "Lock settings for use Kodi in self-service."
+msgstr "נעל הגדרות לשימוש קודי"
+
+msgctxt "#31597"
+msgid "Configure various functions of the power menu."
+msgstr "הגדר פעולות שונות"
+
+msgctxt "#31598"
+msgid "Set icon to be displayed when loading."
+msgstr "בחר אייקונים להצגה בזמן טעינה"
+
+msgctxt "#31599"
+msgid "Show an opaque background on header."
+msgstr "הצג שקיפות רקע בכותרת"
+
+msgctxt "#31600"
+msgid "Select genres icons addon."
+msgstr "בחר הרחבת אייקוני סגנון"
+
+msgctxt "#31601"
+msgid "Select a photo, a video or a music to run when Kodi starting."
+msgstr "בחר תמונה, וידאו או שיר לניגון כאשר קודי מופעל"
+
+msgctxt "#31602"
+msgid "Show debug infos on interface."
+msgstr "הראה מידע רישום על המסך"
+
+msgctxt "#31603"
+msgid "Debug infos"
+msgstr "מצב באגים"
+
+msgctxt "#31604"
+msgid "Save all skin settings."
+msgstr "שמור את כל הגדרות הסקין"
+
+msgctxt "#31605"
+msgid "Restore all skin settings with backup."
+msgstr "שחזר את כל הגדרות הסקין באמצעות גיבוי"
+
+msgctxt "#31606"
+msgid "Reset all default skin settings. [B]CAUTION ![/B] This will replace all the current settings."
+msgstr "איפוס המעטפת לברירת מחדל. [B]זהירות![/B] ההתאמות האישית ימחקו."
+
+msgctxt "#31607"
+msgid "Necessary Addons"
+msgstr "תוספים נחוצים"
+
+msgctxt "#31608"
+msgid "This category contains all necessary addons so that the skin works correctly."
+msgstr "קטגוריה זו כוללת את כל תוספות הדרושות לטובת תקינות המעטפת."
+
+msgctxt "#31609"
+msgid "must be manually installed"
+msgstr "חייב להיות מותקן ידנית"
+
+msgctxt "#31610"
+msgid "[B]Image Resource Select Addon[/B] addon is needed to select addons (genres icons, studios icons, weather icons, etc...)."
+msgstr "[B]Image Resource Select Addon[/B]  - הרחבה נדרשת לטובת אייקונים שונים"
+
+msgctxt "#31611"
+msgid "[B]Skin Shortcuts[/B] addon is needed to personnalise menus and widgets."
+msgstr "[B]Skin Shortcuts[/B] - הרחבה נדרשת לטובת התאמה אישית של המעטפת"
+
+msgctxt "#31612"
+msgid "[B]ExtendedInfo Script[/B] addon is needed to show additionnal infos about media."
+msgstr "[B]ExtendedInfo Script[/B]  - הרחבה נדרשת לטובת הצגת מידע מורחב על מדיה"
+
+msgctxt "#31613"
+msgid "[B]Skin Helper Service[/B] addon is needed to save/restore skin settings and others stuff."
+msgstr "[B]Skin Helper Service[/B] - הרחבה נדרשת לטובת גיבוי ושיחזור הגדרות מעטפת"
+
+msgctxt "#31614"
+msgid "[B]Play Album Script[/B] addon is needed to play album on album infos screen."
+msgstr "[B]Play Album Script[/B]  - הרחבה נדרשת להצגת מידע אלבום מוזיקה"
+
+msgctxt "#31615"
+msgid "[B]Global Search[/B] addon is needed to search content in library."
+msgstr "[B]Global Search[/B]  - הרחבה נדרשת לחיפוש בספרייה"
+
+msgctxt "#31616"
+msgid "[B]Nextup Service Notification[/B] addon is needed to popup a notification at a specified time period before the end to allow quicker play of the next item or to cancel the next episode playing automatically."
+msgstr "[B]Nextup Service Notification[/B] - הרחבה נדרשת להצגת התראה לפני סוף פרק"
+
+msgctxt "#31617"
+msgid "[B]Artwork Downloader[/B] addon is needed to download all available artworks for  movies/tv shows of library."
+msgstr "[B]Artwork Downloader[/B]  - הרחבה נדרשת להורדת כל פריטי הגרפיקה לספריית הוידאו"
+
+msgctxt "#31618"
+msgid "[B]Artist Slideshow[/B] addon is needed to display a artist slideshow as background for music visualisation."
+msgstr "[B]Artist Slideshow[/B]  - הרחבה נדרשת להצגת מצגת אומן כרקע למוזיקה מתנגנת"
+
+msgctxt "#31619"
+msgid "[B]TV Show - Next Aired[/B] addon is needed to display next aired of TV Shows."
+msgstr "[B]TV Show - Next Aired[/B] - הרחבה נדרשת להצגת הפרק הבא שישודר"
+
+msgctxt "#31620"
+msgid "[B]CU LRC Lyrics[/B] addon is needed to display lyrics from songs."
+msgstr "[B]CU LRC Lyrics[/B] - הרחבה נדרשת להצגת מילות שיר מתנגן"
+
+msgctxt "#31621"
+msgid "[B]cdART Manager[/B] addon is needed to download all ClearLogo and CDArt of Music Library."
+msgstr "[B]cdART Manager[/B] - הרחבה נדרשת ללוגו שקוף ואפקטים למוזיקה"
+
+msgctxt "#31622"
+msgid "[B]YouTube[/B] addon is needed to watch movies trailers."
+msgstr "[B]YouTube[/B  - הרחבה נדרשות להצגת קדימוני סרט"
+
+msgctxt "#31623"
+msgid "Show plot on Hub Fanart."
+msgstr "הראה עלילה על פאנארט ההאב"
+
+msgctxt "#31624"
+msgid "Recently Played Episodes"
+msgstr "פרקים שנוגנו לאחרונה"
+
+msgctxt "#31625"
+msgid "Recently Played Movies"
+msgstr "סרטים שנוגנו לאחרונה"
+
+msgctxt "#31626"
+msgid "Recently Watched TV Shows"
+msgstr "סדרות שנצפו לאחרונה"
+
+msgctxt "#31627"
+msgid "Fanarts transparency"
+msgstr "שקיפות פאנארט"
+
+msgctxt "#31628"
+msgid "Set Fanarts color and opacity."
+msgstr "קבע צבע ושקיפות פאנארט"
+
+msgctxt "#31629"
+msgid "Show media flags on Hub widget"
+msgstr "הראה דגלי מדיה בווידג'ט האב"
+
+msgctxt "#31630"
+msgid "Show media infos icons on Hub widget such as ratio, resolution, video codec, audio codec,  number of channels..."
+msgstr "הראה מידע מדיה בווידג'ט האב"
+
+msgctxt "#31631"
+msgid "Show clearlogos on Hub widget"
+msgstr "הראה לוגו שקוף בווידג'ט האב"
+
+msgctxt "#31632"
+msgid "Show movies/tv shows clearlogos on Hub widget"
+msgstr "הראה לוגו שקוף לסרטים / סדרות בווידג'ט האב"
+
+msgctxt "#31633"
+msgid "Weather icons"
+msgstr "אייקוני מזג אויר"
+
+msgctxt "#31634"
+msgid "Select weather icons addon."
+msgstr "בחר אייקוני מזג אויר"
+
+msgctxt "#31635"
+msgid "Music visualisation background"
+msgstr "סגנון רקע אחורי מוזיקה"
+
+msgctxt "#31636"
+msgid "Beveled Tiles"
+msgstr "אריחים משופעים"
+
+msgctxt "#31637"
+msgid "Album wall"
+msgstr "קיר אלבומים"
+
+msgctxt "#31638"
+msgid "Hide all playback infos on music visualisation background."
+msgstr "הסתר כל מידע מוזיקה בעת ניגון מוזיקה חזותית"
+
+msgctxt "#31639"
+msgid "Back to music visualisation"
+msgstr "בחזרה למוזיקה חזותית"
+
+msgctxt "#31640"
+msgid "Color"
+msgstr "צבע"
+
+msgctxt "#31641"
+msgid "[B]Library Data Provider[/B] addon is needed to add more widgets."
+msgstr "[B]Library Data Provider[/B] - הרחבה נדרשת בשביל עוד ווידג'טים"
+
+msgctxt "#31642"
+msgid "Banners"
+msgstr "באנרים"
+
+msgctxt "#31643"
+msgid "Big posters"
+msgstr "פוסטרים גדולים"
+
+msgctxt "#31644"
+msgid "Frames"
+msgstr "מסגרות"
+
+msgctxt "#31645"
+msgid "Media Infos 1"
+msgstr "פרטי מדיה 1"
+
+msgctxt "#31646"
+msgid "Infos List 2"
+msgstr "רשימת מידע 2"
+
+msgctxt "#31647"
+msgid "Thumbs"
+msgstr "תמונות ממוזערות"
+
+msgctxt "#31648"
+msgid "Hide infos"
+msgstr "הסתר מידע"
+
+msgctxt "#31649"
+msgid "Debug grid"
+msgstr "רשת ניפוי באגים"
+
+msgctxt "#31650"
+msgid "Show debug grid on interface."
+msgstr "הצג רשת ניפוי באגים"
+
+msgctxt "#31651"
+msgid "Posters"
+msgstr "פוסטרים"
+
+msgctxt "#31652"
+msgid "View"
+msgstr "תצוגה"
+
+msgctxt "#31653"
+msgid "Text color"
+msgstr "צבע טקסט"
+
+msgctxt "#31654"
+msgid "Enable individual text color for each tile in home customisation"
+msgstr "בחר צבע טקסט לכל אריח בנפרד דרך התאמת תפריט הבית"
+
+msgctxt "#31655"
+msgid "Set text color for tiles text on home menu."
+msgstr "בחר צבע טקסט לכל האריחים בתפריט הבית"
+
+msgctxt "#31656"
+msgid "Set a text color for each tile of home bar menu via customisation home menu."
+msgstr "בחר צבע טקסט לכל אריח בנפרד דרך התאמת תפריט הבית"
+
+msgctxt "#31657"
+msgid "Color and opacity"
+msgstr "צבע ושקיפות"
+
+msgctxt "#31658"
+msgid "Reset color and opacity to defaults"
+msgstr "אפס צבע ושקיפות"
+
+msgctxt "#31659"
+msgid "Reset Fanarts color and opacity to defaults."
+msgstr "אפס צבע פאנארט ושקיפות"
+
+msgctxt "#31660"
+msgid "Reset secondary color to default"
+msgstr "אפס צבע משנה"
+
+msgctxt "#31661"
+msgid "Reset secondary color to default."
+msgstr "אפס צבע משנה"
+
+msgctxt "#31662"
+msgid "Reset text color to default"
+msgstr "אפס צבע טקסט"
+
+msgctxt "#31663"
+msgid "Reset text color to default."
+msgstr "אפס צבע טקסט"
+
+msgctxt "#31664"
+msgid "Squared tiles with rounded corners"
+msgstr "אריחים מרובעים עם פינות מעוגלות"
+
+msgctxt "#31665"
+msgid "Empty rounded tiles"
+msgstr "אריחים ריקים מעוגלים"
+
+msgctxt "#31666"
+msgid "Empty squared tiles"
+msgstr "אריחים ריקים מרובעים"
+
+msgctxt "#31667"
+msgid "Empty squared tiles with rounded corners"
+msgstr "אריחים ריקים עם פינות מעוגלות"
+
+msgctxt "#31668"
+msgid "Empty beveled tiles"
+msgstr "אריחים ריקים משופעים"
+
+msgctxt "#31669"
+msgid "Studios icons"
+msgstr "אייקוני סטודיו"
+
+msgctxt "#31670"
+msgid "Select studios icons addon."
+msgstr "בחר הרחבת אייקוני סטודיו"
+
+msgctxt "#31671"
+msgid "Show studios icons on videos infos"
+msgstr "הראה אייקוני סטודיו במידע וידאו"
+
+msgctxt "#31672"
+msgid "Show studios icons on video infos."
+msgstr "הראה אייקוני סטודיו במידע וידאו"
+
+msgctxt "#31673"
+msgid "Home bar color and opacity"
+msgstr "שינוי צבע הבר ואטימות"
+
+msgctxt "#31674"
+msgid "Reset home bar color and opacity"
+msgstr "איפוס צבע בר ואטימות"
+
+msgctxt "#31675"
+msgid "Set color and opacity for home bar menu."
+msgstr "בחר את צבע הבר ואטימות"
+
+msgctxt "#31676"
+msgid "Reset home bar color and opacity."
+msgstr "אפס את צבע הבר ואטימות"
+
+msgctxt "#31677"
+msgid "Color and opacity of primary widget tile"
+msgstr "צבע ושקיפות לחלון הווידג'ט"
+
+msgctxt "#31678"
+msgid "Color and opacity of secondary widget tile"
+msgstr "צבע ושקיפות לכותרת משנית"
+
+msgctxt "#31679"
+msgid "Reset color and opacity of primary widget tile"
+msgstr "אפס צבע ושקיפות לחלון הווידג'ט"
+
+msgctxt "#31680"
+msgid "Reset color and opacity of secondary widget tile"
+msgstr "אפס צבע ושקיפות של כותרת משנית"
+
+msgctxt "#31681"
+msgid "Set color and opacity of primary widget tile."
+msgstr "בחר צבע ושקיפות של כותרת ראשית"
+
+msgctxt "#31682"
+msgid "Reset color and opacity of primary widget tile."
+msgstr "אפס צבע ושקיפות של כותרת ראשית"
+
+msgctxt "#31683"
+msgid "Set color and opacity of secondary widget tile."
+msgstr "בחר צבע ושקיפות של כותרת משנית"
+
+msgctxt "#31684"
+msgid "Reset color and opacity of secondary widget tile."
+msgstr "אפס צבע ושקיפות של כותרת משנית"
+
+msgctxt "#31685"
+msgid "Posters list"
+msgstr "רשימת פוסטרים"
+
+msgctxt "#31686"
+msgid "Replace widget fanart with background"
+msgstr "החלפת תמונת ווידג'ט סרט"
+
+msgctxt "#31687"
+msgid "Replace widget fanart with home background."
+msgstr "החלף פאנארט של ווידג'ט עם תמונת רקע כללית"
+
+msgctxt "#31688"
+msgid "Sets a protection password for menu items."
+msgstr "הגדר הגנת סיסמא עבור תפריטים"
+
+msgctxt "#31689"
+msgid "Sets duration white menu items will be available after entering password."
+msgstr "בחר זמן זמינות עבור פרטי מידע - מאופשר רק עם סיסמא"
+
+msgctxt "#31690"
+msgid "Password protection"
+msgstr "הגנת סיסמא"
+
+msgctxt "#31691"
+msgid "Password protection for menu items"
+msgstr "הגנת סיסמא עבור פרטי תפריט"
+
+msgctxt "#31692"
+msgid "Password has been successfully set !"
+msgstr "הסיסמא הוגדרה בהצלחה"
+
+msgctxt "#31693"
+msgid "Accessibility duration for menu items"
+msgstr "זמן זמינות עבור פריטי תפריט"
+
+msgctxt "#31694"
+msgid "Password protected content"
+msgstr "תוכן מוגן בסיסמא"
+
+msgctxt "#31695"
+msgid "Press [B]Enter[/B] and insert password."
+msgstr "אזהרה! תוכן מוגן - לחץ אינטר להזנת סיסמא"
+
+msgctxt "#31696"
+msgid "Incorrect password ! Please Retry."
+msgstr "סיסמא שגויה! נסה שוב"
+
+msgctxt "#31697"
+msgid "Correct password ! This menu is now available for"
+msgstr "סיסמא נכונה! התפריט כעת זמין"
+
+msgctxt "#31698"
+msgid "minute(s)"
+msgstr "דקות"
+
+msgctxt "#31699"
+msgid "Enable day/night color themes"
+msgstr "אפשר ערכות נושא ליום/לילה"
+
+msgctxt "#31700"
+msgid "Theme to use at day time"
+msgstr "ערכת נושא לשימוש ביום"
+
+msgctxt "#31701"
+msgid "Theme to use at night time"
+msgstr "ערכת נושא לשימוש בלילה"
+
+msgctxt "#31702"
+msgid "every day at"
+msgstr "כל יום ב"
+
+msgctxt "#31703"
+msgid "Turns automatically change color theme based on day and night."
+msgstr "הפעל מעבר אוטומטי בין ערכות נושא על פי זמן היום"
+
+msgctxt "#31704"
+msgid "Selects the theme to use on day."
+msgstr "בחר ערכת נושא לשימוש ביום"
+
+msgctxt "#31705"
+msgid "Selects the theme to use on night."
+msgstr "בחר ערכת נושא לשימוש בלילה"
+
+msgctxt "#31706"
+msgid "Create and manage all color themes."
+msgstr "צור ונהל תוכניות צבע"
+
+msgctxt "#31707"
+msgid "Protect home menu items with password"
+msgstr "הגן על תפריט הבית "
+
+msgctxt "#31708"
+msgid "Protect home menu items with password. Protection of each item is performed in [B]Customize Home Menu[/B]."
+msgstr "הגן על פריטי תפריט הביתה עם סיסמא. הגנה של כל פריט מתבצעת [B] התאמה אישית דף בית תפריט [/ B]."
+
+msgctxt "#31709"
+msgid "Icons and texts only"
+msgstr "אייקונים וטקסט בלבד"
+
+msgctxt "#31710"
+msgid "Show infos when video is paused"
+msgstr "הצג פרטים כאשר הוידאו מושהה"
+
+msgctxt "#31711"
+msgid "Show infos panel when the video is paused."
+msgstr "הראה פאנל מידע כשהוידאו נעצר"
+
+msgctxt "#31712"
+msgid "second(s)"
+msgstr "שניות"
+
+msgctxt "#31713"
+msgid "Time to display"
+msgstr "זמן להצגה"
+
+msgctxt "#31714"
+msgid "Sets time before synopsis display in the video library."
+msgstr "הגדר משך זמן לפני תצוגת פרטי הסרט בספריית הוידאו"
+
+msgctxt "#31715"
+msgid "Hide tile"
+msgstr "הסתר אריח"
+
+msgctxt "#31716"
+msgid "Hide header tile."
+msgstr "הסתר אריח עליון"
+
+msgctxt "#31717"
+msgid "Show indicators with widget infos"
+msgstr "הראה מצביעים בווידג'ט מידע"
+
+msgctxt "#31718"
+msgid "Show indicators of watched, unwatched, in progress and new videos with widget infos."
+msgstr "הראה מצביעים ל\"נצפה\", \"לא נצפה\", \"נוסף לאחרונה\" ו\"בתהליך צפייה\""
+
+msgctxt "#31719"
+msgid "Info displayed for episodes"
+msgstr "תצוגת מידע אודות פרקים"
+
+msgctxt "#31720"
+msgid "Total Episodes"
+msgstr "סך הכל פרקים"
+
+msgctxt "#31721"
+msgid "Unwatched Episodes"
+msgstr "פרקים שלא נצפו"
+
+msgctxt "#31722"
+msgid "Watched Episodes"
+msgstr "פרקים שנצפו"
+
+msgctxt "#31723"
+msgid "Episodes"
+msgstr "פרקים"
+
+msgctxt "#31724"
+msgid "Unwatched"
+msgstr "לא נצפה"
+
+msgctxt "#31725"
+msgid "Watched"
+msgstr "נצפה"
+
+msgctxt "#31726"
+msgid "Sets info displayed on TV shows and seasons. [[B]Total Episodes[/B]] will show total number of episodes for a TV shows or a season, [[B]Unwatched Episodes[/B]] will show number of episodes not viewed for a TV shows or a season, [[B]Watched Episodes[/B]] will show number of episodes already viewed for a TV shows or a season."
+msgstr "בחר מידע שיוצג לסדרות"
+
+msgctxt "#31727"
+msgid "[B]AutoCompletion for virtual keyboard[/B] addon is needed to show autocompletion of keyboard."
+msgstr "הרחבה נדרשת לטובת השלמה אוטומטית בהקלדה"
+
+msgctxt "#31728"
+msgid "Posters with emergence infos"
+msgstr "פוסטרים עם מידע מקדים"
+
+msgctxt "#31729"
+msgid "Big Fanarts"
+msgstr "פאנארט גדול"
+
+msgctxt "#31730"
+msgid "Big Banner"
+msgstr "באנרים גדולים"
+
+msgctxt "#31731"
+msgid "Watched for the last time on"
+msgstr "נצפה בפעם האחרונה"
+
+msgctxt "#31732"
+msgid "Aired for the last time on"
+msgstr "שודר בפעם האחרונה"
+
+msgctxt "#31733"
+msgid "Hide Next Aired infos"
+msgstr "הסתר מידע על פרק הבא"
+
+msgctxt "#31734"
+msgid "Indicators"
+msgstr "מצביעים"
+
+msgctxt "#31735"
+msgid "All"
+msgstr "הכל"
+
+msgctxt "#31736"
+msgid "Hide unwatched indicator only"
+msgstr "הסתר מצביעי \"לא נצפה\" בלבד"
+
+msgctxt "#31737"
+msgid "Hub Image"
+msgstr "תמונת מרכז מידע"
+
+msgctxt "#31738"
+msgid "Unwatched Movies"
+msgstr "סרטים שלא נצפו"
+
+msgctxt "#31739"
+msgid "Unwatched Episodes"
+msgstr "פרקים שלא נצפו"
+
+msgctxt "#31740"
+msgid "Pixelated"
+msgstr "אפקטי פיקסול"
+
+msgctxt "#31741"
+msgid "[B]colorbox Script[/B] addon is needed to display pixelated fanart on music visualisation background."
+msgstr "הרחבה נדרשת להצגת פאנארט מפוקסל"
+
+msgctxt "#31742"
+msgid "Logos with Fanarts/Thumbs"
+msgstr "לוגו עם Fanarts / Thumbs"
+
+msgctxt "#31743"
+msgid "Big wide with cleararts"
+msgstr "גדול ורחב עם אפקטים שקופים"
+
+msgctxt "#31744"
+msgid "Cleararts list"
+msgstr "Cleararts רשימת"
+
+msgctxt "#31745"
+msgid "Logos list"
+msgstr "תצוגת לוגו"
+
+msgctxt "#31746"
+msgid "Hide bottom bar"
+msgstr "הסתר את תפריט הבר"
+
+msgctxt "#31747"
+msgid "Start automatically Artwork Downloader after library update"
+msgstr "הפעל אוטומטית Artwork Downloader לאחר עדכון הספרייה"
+
+msgctxt "#31748"
+msgid "Download automatically all necessary artworks using [B]Artwork Downloader[/B] addon."
+msgstr "הורד באופן אוטומטי את כל יצירות האמנות ההכרחיות באמצעות [B]Downloader Artwork[/B] addon."
+
+msgctxt "#31749"
+msgid "Show CDArts on videos infos"
+msgstr "הצג CDArts בפרטי הוידאו"
+
+msgctxt "#31750"
+msgid "Show CDArts on video infos."
+msgstr "הצג CDArts בפרטי הוידאו."
+
+msgctxt "#31751"
+msgid "Hide submenus icons"
+msgstr "הסתר אייקוני תפריטי משנה"
+
+msgctxt "#31752"
+msgid "Hide submenus icons."
+msgstr "הסתר אייקוני תפריטי משנה"
+
+msgctxt "#31753"
+msgid "Main color of indicators"
+msgstr "צבע ראשי של מצביעים"
+
+msgctxt "#31754"
+msgid "Secondary color of indicators"
+msgstr "צבע משני של מצביעים"
+
+msgctxt "#31755"
+msgid "Set the main color of watched, unwatched, recently added and ongoing indicators."
+msgstr "בחר צבע ראשי ל\"נצפה\", \"לא נצפה\", \"נוסף לאחרונה\" ו\"בתהליך צפייה\""
+
+msgctxt "#31756"
+msgid "Set the secondary color of watched, unwatched, recently added and ongoing indicators."
+msgstr "בחר צבע משני ל\"נצפה\", \"לא נצפה\", \"נוסף לאחרונה\" ו\"בתהליך צפייה\""
+
+msgctxt "#31757"
+msgid "Submenus style"
+msgstr "סגנון תפריטי משנה"
+
+msgctxt "#31758"
+msgid "Set submenus style."
+msgstr "קבע סגנון תפריטי משני"
+
+msgctxt "#31759"
+msgid "Large"
+msgstr "גדול"
+
+msgctxt "#31760"
+msgid "Small"
+msgstr "קטן"
+
+msgctxt "#31761"
+msgid "Allow widgets reloading."
+msgstr "אפשר טעינה מחדש של ווידג'טים"
+
+msgctxt "#31762"
+msgid "Showcase"
+msgstr "חלון ראווה"
+
+# msgctxt "#31763"
+# msgid "Showcase"
+# msgstr "ביטול מסך פתיחה"
+
+msgctxt "#31764"
+msgid "please wait"
+msgstr "אנא המתן..."
+
+msgctxt "#31765"
+msgid "Use manfeed's lyrics"
+msgstr "manfeed's הצג את מילות השיר מתוך המוד"
+
+msgctxt "#31766"
+msgid "Backup fake disc"
+msgstr "דיסק מזויף"
