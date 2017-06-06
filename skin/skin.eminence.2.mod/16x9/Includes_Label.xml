@@ -91,32 +91,34 @@
         <value condition="ListItem.IsCollection">$INFO[Window(Home).Property(SkinHelper.MovieSet.Title)]</value>
         <value>$INFO[ListItem.Plot]</value>
     </variable>
-
+    <!-- Abeksis -->
+	<variable name="Label_Duration">
+		<value condition="Skin.HasSetting(helperduration) + System.HasAddon(script.duration_axbmcuser) + !String.IsEmpty(ListItem.Duration)">$INFO[Window.Property(ScriptDurationAxbmcuserHours),,:]$INFO[Window.Property(ScriptDurationAxbmcuserMinutes)]</value>
+		<value condition="!Skin.HasSetting(helperduration) + System.HasAddon(script.duration_axbmcuser) + !String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration,,m]</value>
+		<value condition="Skin.HasSetting(helperduration) + !System.HasAddon(script.duration_axbmcuser) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,h ]$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,m]</value>
+		<value condition="Skin.HasSetting(helperduration) + !System.HasAddon(script.duration_axbmcuser) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration)) + !String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration,,m]</value>
+		<value condition="!Skin.HasSetting(helperduration) + !System.HasAddon(script.duration_axbmcuser) + !String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration,,m]</value>	
+		<value condition="!Skin.HasSetting(helperduration) + String.IsEmpty(ListItem.Duration) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Duration))">$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Hours),,h ]$INFO[Window(Home).Property(SkinHelper.ListItem.Duration.Minutes),,m]</value>			
+	</variable>	
+	
     <variable name="Label_HeaderDirector">
-        <value condition="!IsEmpty(VideoPlayer.TvShowTitle)">$INFO[VideoPlayer.TvShowTitle]</value><!-- Me -->
-        <value condition="!IsEmpty(VideoPlayer.Director)">$INFO[VideoPlayer.Director]</value><!-- Me -->
+        <value condition="!IsEmpty(VideoPlayer.TvShowTitle)">$INFO[VideoPlayer.TvShowTitle]</value><!-- Abeksis -->
+        <value condition="!IsEmpty(VideoPlayer.Director)">$INFO[VideoPlayer.Director]</value><!-- Abeksis -->
     </variable>
 
-    <variable name="Label_ExtraInfo">
-<!-- Modification Value -->    
+    <variable name="Label_ExtraInfo">    
         <value condition="!IsEmpty(ListItem.MPAA) + !IsEmpty(ListItem.Duration) + !Control.IsVisible(51) + !Skin.HasSetting(disable.mpaa)">$INFO[ListItem.MPAA,,  •  ]$INFO[Window(Home).Property(SkinHelper.ListItemDuration)]</value>
         
-        <value condition="!IsEmpty(ListItem.MPAA) + !IsEmpty(ListItem.Duration) + !Control.IsVisible(51) | Skin.HasSetting(disable.mpaa)">$INFO[Window(Home).Property(SkinHelper.ListItemDuration)]</value>
-<!-- Modification Value -->        
-        <value condition="!IsEmpty(ListItem.MPAA) + !Control.IsVisible(51) + !Skin.HasSetting(disable.mpaa)">$INFO[ListItem.MPAA]</value>
-<!-- Modification Value -->            
+        <value condition="!IsEmpty(ListItem.MPAA) + !IsEmpty(ListItem.Duration) + !Control.IsVisible(51) | Skin.HasSetting(disable.mpaa)">$INFO[Window(Home).Property(SkinHelper.ListItemDuration)]</value>        
+        <value condition="!IsEmpty(ListItem.MPAA) + !Control.IsVisible(51) + !Skin.HasSetting(disable.mpaa)">$INFO[ListItem.MPAA]</value>            
         <value condition="!IsEmpty(ListItem.Duration)">$INFO[Window(Home).Property(SkinHelper.ListItemDuration)]</value>
     </variable>
 
     <variable name="Label_ExtraInfo_Icons">
-        <value condition="Container.Content(seasons)">$INFO[ListItem.Year,,  •  ]$INFO[ListItem.Episode,, $LOCALIZE[20360]]</value>
-<!-- Modification Value -->      
-        <value condition="!ListItem.IsCollection + Container.Content(movies) + !Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Year,,  •  ]$INFO[ListItem.Rating]</value>
-          
-        <value condition="!ListItem.IsCollection + Container.Content(movies) | Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Year]</value>
-<!-- Modification Value -->         
-        <value condition="!ListItem.IsCollection + !Container.Content(movies) + !Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Premiered,,  •  ]$INFO[ListItem.Rating]</value>
-           
+        <value condition="Container.Content(seasons)">$INFO[ListItem.Year,,  •  ]$INFO[ListItem.Episode,, $LOCALIZE[20360]]</value>      
+        <value condition="!ListItem.IsCollection + Container.Content(movies) + !Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Year,,  •  ]$INFO[ListItem.Rating]</value>         
+        <value condition="!ListItem.IsCollection + Container.Content(movies) | Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Year]</value>         
+        <value condition="!ListItem.IsCollection + !Container.Content(movies) + !Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Premiered,,  •  ]$INFO[ListItem.Rating]</value>          
         <value condition="!ListItem.IsCollection + !Container.Content(movies) | Skin.HasSetting(disable.rating)">$VAR[Label_ExtraInfo,,  •  ]$INFO[ListItem.Premiered]</value>
         <value condition="ListItem.IsCollection">$INFO[Window(Home).Property(SkinHelper.MovieSet.Count),, $LOCALIZE[20342]  •  ]$INFO[Window(Home).Property(SkinHelper.MovieSet.Year)]</value>
     </variable>
@@ -455,8 +457,7 @@
     </variable>
 
     <variable name="Label_PlayerStatus">
-        <value condition="Player.Caching">$LOCALIZE[439] $INFO[Player.CacheLevel,,%]</value>
-<!-- Modifications des Value -->           
+        <value condition="Player.Caching">$LOCALIZE[439] $INFO[Player.CacheLevel,,%]</value>          
         <value condition="Player.Paused">$LOCALIZE[112]</value>
         <value condition="Player.Forwarding32x">32x</value>
         <value condition="Player.Forwarding16x">16x</value>
@@ -618,7 +619,7 @@
         <value>$LOCALIZE[31180]</value>
     </variable>
     <variable name="Label_SkinSetting_BackgroundColor">
-        <value condition="!IsEmpty(Skin.String(BackgroundColor))">$INFO[Skin.String(BackgroundColor)]</value>
+        <value condition="!String.IsEmpty(Skin.String(BackgroundColor))">$INFO[Skin.String(BackgroundColor)]</value>
         <value>$LOCALIZE[31180]</value>
     </variable>
     <variable name="Label_SkinSetting_BusyTexture">

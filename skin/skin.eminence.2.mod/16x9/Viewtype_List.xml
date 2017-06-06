@@ -286,7 +286,7 @@
             <include>Object_ExtraInfo3</include>
             <control type="group">
                 <width>1130</width>
-                <include>Object_Arrows_Vertical</include>
+                <include>Object_Arrows_Vertical4</include>
             </control>
         </control>
     </include>
@@ -915,11 +915,11 @@
                             <visible>!IsEmpty(ListItem.Overlay)</visible>
                         </control>
                         <control type="label">
-                            <left>30</left>
+                            <left>60</left>
                             <right>30</right>
                             <top>0</top>
                             <height>100%</height>
-                            <align>right</align>
+                            <align>left</align>
                             <font>Font-ListInfo</font>
                             <label>$INFO[ListItem.Label2]</label>                           
                             <visible>!Skin.HasSetting(disable.rating)</visible>
@@ -957,15 +957,14 @@
                             <visible>!IsEmpty(ListItem.Overlay)</visible>
                         </control>
                         <control type="label">
-                            <left>30</left>
+                            <left>60</left>
                             <right>30</right>
                             <top>0</top>
                             <height>100%</height>
-                            <align>right</align>
+                            <align>left</align>
                             <font>Font-ListInfo</font>
-                            <textcolor>Selected</textcolor>
                             <label>$INFO[ListItem.Label2]</label>                           
-                            <visible>!Skin.HasSetting(disable.rating)</visible>                            
+                            <visible>!Skin.HasSetting(disable.rating)</visible>
                         </control>
                     </focusedlayout>
                 </control>

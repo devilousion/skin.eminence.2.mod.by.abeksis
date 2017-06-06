@@ -687,7 +687,6 @@
             <right>pad</right>
             <height>154</height>
             <font>Font-ListInfo</font>
-            <align>justify</align>
             <align>right</align>
             <label>$VAR[Label_Plot]</label>
             <visible>IsEmpty(ListItem.Genre)</visible>

@@ -225,8 +225,7 @@
                 <left>60</left>
                 <right>60</right>
                 <font>Font-Header</font>
-                <height>45</height>
-<!-- Ajout Textcolor -->                
+                <height>45</height>                
                 <textcolor>$VAR[HighlightColor2]</textcolor>
                 <label>$VAR[Label_OverlayTitle]</label>
             </control>
@@ -388,19 +387,19 @@
                 <height>50</height>
                 <aspectratio>keep</aspectratio>
                 <texture colordiffuse="LineLabel">indicator/time.png</texture>
-                <visible>!substring(Container.FolderPath,plugin://,left) + !IsEmpty(ListItem.Duration) + !Container.Content(songs)</visible>
+                <visible>!substring(Container.FolderPath,plugin://,left)  + !IsEmpty(ListItem.EndTime) + !substring(ListItem.Path,videodb://movies/sets,left) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(genres)</visible>
             </control>            
             <control type="label">
                 <centertop>47%</centertop>	            
                 <width>93</width>
                 <height>50</height>
-                <posx>-1500</posx>
+                <posx>-1505</posx>
                 <align>center</align>
                 <aligny>center</aligny>
-                <label>$INFO[Window(Home).Property(SkinHelper.ListItemDuration)]</label>
+                <label>$VAR[Label_Duration]</label>
                 <font>Font-Flag</font>
                 <textcolor>LineLabel</textcolor>
-                <visible>!substring(Container.FolderPath,plugin://,left) + !IsEmpty(ListItem.Duration) + !Container.Content(songs)</visible>
+                <visible>!substring(Container.FolderPath,plugin://,left) + !substring(ListItem.Path,videodb://movies/sets,left) + !IsEmpty(ListItem.EndTime) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(genres)</visible>
             </control>
           </control> 
            <!-- Abeksis מידע על שעת סיום  -->
@@ -584,8 +583,7 @@
         </control>
         <control type="image">
             <bottom>0</bottom>
-            <width>100%</width>
-<!-- Modification Height -->            
+            <width>100%</width>            
             <height>100%</height>
             <texture colordiffuse="7f000000" flipy="true">common/gradient.png</texture>
             <visible>Skin.HasSetting(global.backpanelmode)</visible>
@@ -1232,7 +1230,7 @@
                     <font>Font-Sublabel</font>
                     <aligny>top</aligny>
                     <textcolor>$VAR[Furniture_TopBar_SubLabel_Color]</textcolor>
-                    <label>[COLOR=$VAR[HighlightColor2]]$INFO[MusicPlayer.Artist][/COLOR]  </label><!--Me-->
+                    <label>[COLOR=$VAR[HighlightColor2]]$INFO[MusicPlayer.Artist][/COLOR]  </label>
                 </control>
                 <control type="label">
                     <width>320</width>
@@ -1240,7 +1238,7 @@
                     <align>left</align>
                     <aligny>top</aligny>
                     <textcolor>$VAR[Furniture_TopBar_SubLabel_Color]</textcolor>
-                    <label>$INFO[Player.Time(hh:mm:ss)]$INFO[Player.Duration(hh:mm:ss), / ,]</label><!--Me-->
+                    <label>$INFO[Player.Time(hh:mm:ss)]$INFO[Player.Duration(hh:mm:ss), / ,]</label>
                 </control>
             </control>
         </control>

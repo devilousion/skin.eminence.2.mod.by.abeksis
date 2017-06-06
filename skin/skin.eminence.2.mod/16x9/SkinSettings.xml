@@ -445,17 +445,17 @@
 						<include>Defs_OptionButton</include>
 						<visible>ControlGroup(8000).HasFocus(8002)</visible>
 					</control>
-					<!--Ajout Control -->
-					<!-- Background Color -->
-					<control type="button" id="8210">
-						<width>100%</width>
-						<label>31657</label>
-						<label2>$VAR[Label_SkinSetting_BackgroundColor]</label2>
-						<onclick>RunScript(script.skin.helper.service,action=colorpicker,skinstring=BackgroundColor)</onclick>
-						<include>Defs_OptionButton</include>
-						<visible>ControlGroup(8000).HasFocus(8002)</visible>
-					</control>
-					<!--Ajout Control -->
+
+                    <!-- Background Color -->
+                    <control type="button" id="8210">
+                        <width>100%</width>
+                        <label>31657</label>
+                        <label2>$VAR[Label_SkinSetting_BackgroundColor]</label2>
+                        <onclick>RunScript(script.skin.helper.colorpicker,skinstring=BackgroundColor)</onclick>
+                        <include>Defs_OptionButton</include>
+                        <visible>ControlGroup(8000).HasFocus(8002)</visible>
+                    </control>
+
 					<!-- Reset Colors -->
 					<control type="button" id="8211">
 						<width>100%</width>
@@ -1141,7 +1141,17 @@
 						<onclick condition="!Skin.String(SplashScreen)">Skin.SetFile(SplashScreen)</onclick>
 						<onclick condition="Skin.String(SplashScreen)">Skin.Reset(SplashScreen)</onclick>
 					</control>
-					<!--<control type="radiobutton" id="8910"><visible>ControlGroup(8000).HasFocus(8009)</visible><radioposx>40</radioposx><align>right</align><width>100%</width><label>31763</label><include>Defs_OptionButton</include><onclick>Skin.ToggleSetting(Disable_SplashScreen)</onclick><selected>!Skin.HasSetting(Disable_SplashScreen)</selected></control>-->
+					<!--Animated Posters -->
+					<control type="radiobutton" id="8912">						
+						<radioposx>40</radioposx>
+						<align>right</align>
+						<width>100%</width>
+                        <label>31763</label>
+                        <selected>Skin.HasSetting(SkinHelperAnimations)</selected>
+                        <onclick>Skin.ToggleSetting(SkinHelperAnimations)</onclick>
+                        <include>Defs_OptionButton</include>
+                        <visible>ControlGroup(8000).HasFocus(8009)</visible>
+                    </control>
 					<!-- Auto update artwork downloader -->
 					<control type="radiobutton" id="8913">
 						<radioposx>40</radioposx>
@@ -1203,7 +1213,7 @@
 						<include>Defs_OptionButton</include>
 						<visible>ControlGroup(8000).HasFocus(8009)</visible>
 					</control>
-					<!-- Debug Grid -->
+					<!-- Debug Grid 
 					<control type="radiobutton" id="8912">
 						<radioposx>40</radioposx>
 						<align>right</align>
@@ -1213,7 +1223,7 @@
 						<onclick>Skin.ToggleSetting(DebugGrid)</onclick>
 						<include>Defs_OptionButton</include>
 						<visible>ControlGroup(8000).HasFocus(8009)</visible>
-					</control>
+					</control> -->
 					<!-- RESET -->
 					<!-- Backup -->
 					<control type="button" id="8997">

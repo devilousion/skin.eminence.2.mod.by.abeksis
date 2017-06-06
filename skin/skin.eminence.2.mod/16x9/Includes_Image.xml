@@ -62,11 +62,10 @@
         <value condition="substring(Container.FolderPath,video.freplay)">logos/FReplay_logo.png</value>
         <value condition="substring(Container.FolderPath,video.allocine)">logos/Allocine_logo.png</value>
     </variable>
-
-<!-- Ajout Variable -->    
+   
     <variable name="MusicCDArt">
-		<!--<value>$INFO[Skin.String(musiccdart.location)]$INFO[ListItem.Artist]$INFO[ListItem.Album,/,.png]</value>-->
-		<value>$INFO[Skin.String(musiccdart.location)]$INFO[ListItem.Artist,,/]$INFO[ListItem.Album,,/]cdart.png</value>		
+		<value>$INFO[Skin.String(musiccdart.location)]$INFO[ListItem.Artist]$INFO[ListItem.Album]/disc.png</value>		
+		<value>$INFO[Skin.String(musiccdart.location)]$INFO[ListItem.Artist]$INFO[ListItem.Album]/cdart.png</value>		
     </variable>	
 
     <variable name="Image_Poster">
@@ -92,6 +91,7 @@
         <value condition="Window.IsVisible(DialogVideoInfo.xml) + StringCompare(Control.GetLabel(5),$LOCALIZE[207])">$INFO[Container(50).ListItem.Icon]</value>
         <value condition="Container.Content(genres) + Window.IsVisible(MyVideoNav.xml) + !IsEmpty(Skin.String(genre.icons.path))">$INFO[Skin.String(genre.icons.path)]$INFO[ListItem.Label,,.jpg]</value>
         <value condition="!IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+        <value condition="Skin.HasSetting(SkinHelperAnimations) + !String.IsEmpty(ListItem.Art(animatedposter))">$INFO[ListItem.Art(animatedposter)]</value>
         <value condition="Window.IsVisible(script-skin_helper_service-CustomInfo.xml)">$INFO[Container(999).ListItem.Art(poster)]</value>
         <value condition="!IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
         <value>$INFO[ListItem.Icon]</value>
@@ -99,18 +99,19 @@
 
     <variable name="Image_Thumb2">
         <value condition="!IsEmpty(ListItem.Art(landscape)) + Skin.HasSetting(show.tvshowsthumbs)">$INFO[ListItem.Art(landscape)]</value>
+        <value condition="Skin.HasSetting(SkinHelperAnimations) + !String.IsEmpty(ListItem.Art(animatedfanart)) + !Container.Content(episodes)">$INFO[ListItem.Art(animatedfanart)]</value>	
         <value condition="!IsEmpty(ListItem.Art(fanart)) + !Container.Content(episodes)">$INFO[ListItem.Art(fanart)]</value>
         <value condition="!IsEmpty(ListItem.Thumb) + Window.IsVisible(MyPics.xml) + Container.Content(episodes)">$INFO[ListItem.Thumb]</value>
         <value>$INFO[ListItem.Icon]</value>
     </variable>
-
-<!-- Ajout Variable -->    
+   
     <variable name="Image_Thumb">
         <value condition="!IsEmpty(ListItem.Art(landscape)) + Skin.HasSetting(show.moviesthumbs)">$INFO[ListItem.Art(landscape)]</value>
+        <value condition="Skin.HasSetting(SkinHelperAnimations) + !String.IsEmpty(ListItem.Art(animatedfanart)) + !Container.Content(episodes)">$INFO[ListItem.Art(animatedfanart)]</value>
         <value condition="!IsEmpty(ListItem.Art(fanart)) + !Container.Content(episodes)">$INFO[ListItem.Art(fanart)]</value>
         <value condition="!IsEmpty(ListItem.Thumb) + Window.IsVisible(MyPics.xml) + Container.Content(episodes)">$INFO[ListItem.Thumb]</value>
         <value>$INFO[ListItem.Icon]</value>
-    </variable>
+    </variable> 
 
     <variable name="Image_PVRThumb">
         <value condition="!IsEmpty(Window(Home).Property(SkinHelper.PVR.FanArt))">$INFO[Window(Home).Property(SkinHelper.PVR.FanArt)]</value>
@@ -132,14 +133,12 @@
         <value>$VAR[Image_Fanart]</value>
     </variable>
 
-    <variable name="Image_RSS_Icon">
-<!-- Modification Value -->    
+    <variable name="Image_RSS_Icon">    
         <value condition="Window.IsVisible(SettingsCategory.xml) | Window.IsVisible(SkinSettings.xml)">common/info.png</value>
         <value condition="Player.HasMedia + Player.Paused">common/pause.png</value>
         <value condition="Player.HasMedia + !Player.Paused">common/play.png</value>
         <value condition="!IsEmpty(Window(Home).Property(NextAired.NextDate)) + !Skin.HasSetting(hidenextairedinfos)">common/nextaired.png</value>
-        <value condition="IsEmpty(Window(Home).Property(NextAired.NextDate)) + !IsEmpty(Window(Home).Property(NextAired.LatestTitle)) + !Skin.HasSetting(hidenextairedinfos)">common/nextaired.png</value>
-<!-- Ajout Value -->        
+        <value condition="IsEmpty(Window(Home).Property(NextAired.NextDate)) + !IsEmpty(Window(Home).Property(NextAired.LatestTitle)) + !Skin.HasSetting(hidenextairedinfos)">common/nextaired.png</value>        
         <value condition="Window.IsVisible(AddonBrowser.xml)">common/rss_update.png</value>
     </variable>
 
@@ -147,17 +146,13 @@
         <value condition="Window.IsVisible(script-ExtendedInfo Script-VideoList.xml)">$INFO[Container(500).ListItem.Art(fanart)]</value>
         <value condition="Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml) + !IsEmpty(Window(home).Property(ExtendedInfo_fanart))">$INFO[Window(home).Property(ExtendedInfo_fanart)]</value>
         <value condition="Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml) | Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml)">special://skin/extras/backgrounds/actor.jpg</value>
-        <value condition="Window.IsVisible(weather) + !IsEmpty(Skin.String(weather.fanart.path))">$INFO[Skin.String(weather.fanart.path)]$INFO[Window(Weather).Property(Current.FanartCode)]/</value>
-<!-- Modification Value -->        
+        <value condition="Window.IsVisible(weather) + !IsEmpty(Skin.String(weather.fanart.path))">$INFO[Skin.String(weather.fanart.path)]$INFO[Window(Weather).Property(Current.FanartCode)]/</value>        
         <value condition="Window.IsVisible(home) + [StringCompare(Container(9000).ListItem.Property(widget),Weather) | [IsEmpty(Container(9000).ListItem.Property(widget)) + StringCompare(Skin.String(home.fallbackwidget),Weather)]] + !IsEmpty(Skin.String(weather.fanart.path)) + ![!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)] + SubString(Container(9001).ListItem.FileNameAndPath,jpg,Right)">$INFO[Container(9001).ListItem.FileNameAndPath]</value>
-        <value condition="Window.IsVisible(home) + StringCompare(Container(9000).ListItem.Property(widgetType),picture) + !IsEmpty(Container(9001).ListItem.Icon)">$INFO[Container(9001).ListItem.Icon]</value>
-<!-- Modification Value -->        
+        <value condition="Window.IsVisible(home) + StringCompare(Container(9000).ListItem.Property(widgetType),picture) + !IsEmpty(Container(9001).ListItem.Icon)">$INFO[Container(9001).ListItem.Icon]</value>        
         <value condition="Window.IsVisible(home) + !IsEmpty(Container(9001).ListItem.Art(fanart)) + ![!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)] + !Skin.HasSetting(replace.widgetbackground)">$INFO[Container(9001).ListItem.Art(fanart)]</value>
         <value condition="Window.IsVisible(home) + StringCompare(Container(9000).ListItem.Property(background),playlistBackground)">$INFO[Container(9988).ListItem.Art(fanart)]</value>
-        <value condition="Window.IsVisible(home) + !IsEmpty(Container(9000).ListItem.Property(Background)) + ![!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)]">$INFO[Container(9000).ListItem.Property(Background)]</value>
-<!-- Ajout Value -->        
-        <value condition="Window.IsVisible(home) + [!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)]">$INFO[Container(9002).ListItem.Property(Background)]</value>
-<!-- Ajout Value -->           
+        <value condition="Window.IsVisible(home) + !IsEmpty(Container(9000).ListItem.Property(Background)) + ![!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)]">$INFO[Container(9000).ListItem.Property(Background)]</value>        
+        <value condition="Window.IsVisible(home) + [!IsEmpty(Container(9002).ListItem.Property(Background)) + Control.HasFocus(9002)]">$INFO[Container(9002).ListItem.Property(Background)]</value>          
         <value condition="[!IsEmpty(Container(9501).ListItem.Property(Background)) + Control.HasFocus(9501)]">$INFO[Container(9501).ListItem.Property(Background)]</value>    
         <value condition="Window.IsVisible(home) + IsEmpty(Skin.String(background.fallback))">special://skin/extras/backgrounds/home.jpg</value>
         <value condition="Window.IsVisible(home) + !IsEmpty(Skin.String(background.fallback))">$INFO[Skin.String(background.fallback)]</value>
@@ -192,8 +187,7 @@
         <value condition="[SubString(ListItem.Overlay,OverlayUnwatched.png) + [[Container.Content(movies) + [StringCompare(Window(Home).Property(LatestMovie.1.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.2.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.3.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.4.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.5.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.6.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.7.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.8.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.9.Title),ListItem.Label) | StringCompare(Window(Home).Property(LatestMovie.10.Title),ListItem.Label)]] | [[Container.Content(tvshows)] + [StringCompare(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.5.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.6.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.TvShowTitle) | StringCompare(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.TvShowTitle)]] | [Container.Content(episodes) + [StringCompare(Window(Home).Property(LatestEpisode.1.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.2.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.3.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.4.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.5.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.6.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.7.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.8.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.9.EpisodeTitle),ListItem.Title) | StringCompare(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title)]]]] + [StringCompare(Skin.String(indicators),$LOCALIZE[31735]) | StringCompare(Skin.String(indicators),$LOCALIZE[31736]) | IsEmpty(Skin.String(indicators))]">indicator/new.png</value>
         <value condition="stringcompare(ListItem.Overlay,OverlayUnwatched.png) + [StringCompare(Skin.String(indicators),$LOCALIZE[31735]) | IsEmpty(Skin.String(indicators))] + !StringCompare(Skin.String(indicators),$LOCALIZE[31736])">indicator/unwatched.png</value>
     </variable>
-
-<!-- Ajout variable -->    
+   
     <variable name="Image_Indicator_Back">
         <value condition="ListItem.IsPlaying + [StringCompare(Skin.String(indicators),$LOCALIZE[31735]) | StringCompare(Skin.String(indicators),$LOCALIZE[31736]) | IsEmpty(Skin.String(indicators))]">indicator/back.png</value>
         <value condition="ListItem.IsResumable + [StringCompare(Skin.String(indicators),$LOCALIZE[31735]) | StringCompare(Skin.String(indicators),$LOCALIZE[31736]) | IsEmpty(Skin.String(indicators))]">indicator/back.png</value>

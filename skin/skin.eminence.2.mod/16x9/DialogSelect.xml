@@ -21,7 +21,7 @@
                 <visible>Control.IsVisible(3)</visible>
                 <include>Dialog_Background</include>
             </control>
-            <include content="Dialog_Top_IconHeader">
+            <include content="Dialog_Top_IconHeader4">
                 <param name="label" value="$INFO[Control.GetLabel(1)]" />
                 <param name="icon" value="special://skin/extras/icons/filebox.png" />
             </include>

@@ -300,9 +300,10 @@
                     <width>100%</width>
                     <label>31128</label>
                     <label2>$INFO[Container(211).ListItem.Property(tilecolor)]</label2>
-                    <onclick>RunScript(script.skin.helper.service,action=colorpicker,shortcutproperty=tilecolor)</onclick>
+                    <onclick>RunScript(script.skin.helper.colorpicker,shortcutproperty=tilecolor)</onclick>
                     <include>Defs_OptionButton</include>
                     <visible>Skin.HasSetting(home.tilecolor)</visible>
+					<visible>!String.IsEqual(Window.Property(groupname),quicknav)</visible>
                 </control>
                 
                 <control type="button" id="9703" description="Select Text Color">
@@ -314,13 +315,14 @@
                     <visible>Skin.HasSetting(home.textcolor)</visible>
                 </control>
                    
-		<control type="button" id="993" description="Password Protection">
-			<width>100%</width>
-			<include>Defs_OptionButton</include>			
-			<label>31690</label>
-			<label2>$VAR[passcode]</label2>
-			<visible>StringCompare(Window.Property(groupname), mainmenu)</visible>
-        </control>                              
+		        <control type="button" id="993" description="Password Protection">
+			       <width>100%</width>
+			       <include>Defs_OptionButton</include>			
+			       <label>31690</label>
+			       <label2>$VAR[passcode]</label2>
+			       <visible>StringCompare(Window.Property(groupname), mainmenu)</visible>
+                </control>                              
+
                 <control type="button" id="308" description="Reset">
                     <width>100%</width>
                     <align>right</align>
